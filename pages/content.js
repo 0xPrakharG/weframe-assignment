@@ -3,5 +3,10 @@ import Layout from "@/components/Layout";
 import Content from "@/components/Content";
 
 export default function Home() {
-  return <Layout>Dashboard</Layout>;
+  return (
+    <Layout>
+      <Header />
+      <Content />
+    </Layout>
+  );
 }

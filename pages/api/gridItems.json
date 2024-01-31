@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "/articles.svg",
+    "name": "Articles",
+    "number": "4,950"
+  },
+  {
+    "id": 2,
+    "icon": "/categories.svg",
+    "name": "Categories",
+    "number": "10,275"
+  },
+  {
+    "id": 3,
+    "icon": "/stories.svg",
+    "name": "Stories",
+    "number": "4,193"
+  },
+  {
+    "id": 4,
+    "icon": "/advertisement.svg",
+    "name": "Advertisements",
+    "number": "928"
+  }
+]

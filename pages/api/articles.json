@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/meet.png",
+    "title": "7 Rules of Effective Branding",
+    "type": "Business",
+    "status": "Created",
+    "text": "Why Branding matters for your Business",
+    "date": "20 Sep 2022",
+    "tags": ["Branding", "Communication", "Branding"],
+    "postedBy": "Maria Doe",
+    "dp": "/articleBy.png"
+  },
+  {
+    "id": 2,
+    "image": "/globe.png",
+    "title": "Research on biodiversity an...",
+    "type": "Economy",
+    "status": "Published",
+    "text": "Lorem ipsum dolor sit amet, consectetur",
+    "date": "20 Sep 2022",
+    "tags": ["World", "Population"],
+    "postedBy": "Maria Doe",
+    "dp": "/articleBy.png"
+  },
+  {
+    "id": 3,
+    "image": "/hall.png",
+    "title": "Close and historical ties to h...",
+    "type": "Politics",
+    "status": "Published",
+    "text": "Lorem ipsum dolor sit amet, consectetur",
+    "date": "20 Sep 2022",
+    "tags": ["Politics", "Defence"],
+    "postedBy": "Maria Doe",
+    "dp": "/articleBy.png"
+  },
+  {
+    "id": 4,
+    "image": "/meet.png",
+    "title": "7 Rules of Effective Branding",
+    "type": "Business",
+    "status": "Created",
+    "text": "Why Branding matters for your Business",
+    "date": "20 Sep 2022",
+    "tags": ["Branding", "Communication", "Branding"],
+    "postedBy": "Maria Doe",
+    "dp": "/articleBy.png"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "link": "/",
+    "icon": "/dashboard.svg",
+    "name": "Dashboard",
+    "pointer": ""
+  },
+  {
+    "id": 2,
+    "link": "/content",
+    "icon": "/content.svg",
+    "name": "Content",
+    "pointer": ""
+  },
+  {
+    "id": 3,
+    "link": "/team",
+    "icon": "/team.svg",
+    "name": "Team",
+    "pointer": ""
+  },
+  {
+    "id": 4,
+    "link": "/user",
+    "icon": "/user.svg",
+    "name": "User",
+    "pointer": ""
+  },
+  {
+    "id": 5,
+    "link": "/app",
+    "icon": "/app-web.svg",
+    "name": "App/Web",
+    "pointer": ""
+  },
+  {
+    "id": 6,
+    "link": "/analytics",
+    "icon": "/analytics.svg",
+    "name": "Analytics",
+    "pointer": "3"
+  },
+  {
+    "id": 7,
+    "link": "/media",
+    "icon": "/media.svg",
+    "name": "Media",
+    "pointer": "16"
+  },
+  {
+    "id": 8,
+    "link": "/notification",
+    "icon": "/notification.svg",
+    "name": "Notification",
+    "pointer": ""
+  },
+  {
+    "id": 9,
+    "link": "/settings",
+    "icon": "/setting.svg",
+    "name": "Settings",
+    "pointer": ""
+  }
+]

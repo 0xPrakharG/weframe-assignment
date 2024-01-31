@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Build Your Business",
+    "image": "/build.png",
+    "text": "Shopify has all the tools you need to start, sell, market, and manage."
+  },
+  {
+    "id": 2,
+    "name": "Libre Coffee",
+    "image": "/coffee.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+  },
+  {
+    "id": 3,
+    "name": "KFC",
+    "image": "/kfc.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+  }
+]
