@@ -6,6 +6,7 @@ export default function UserPage() {
     <>
       <Head>
         <title>User</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>UserPage</Layout>
     </>

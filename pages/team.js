@@ -7,6 +7,7 @@ export default function TeamPage() {
     <>
       <Head>
         <title>Team</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>Team</Layout>
     </>

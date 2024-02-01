@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>Please use navbar to go to content page</Layout>;
     </>

@@ -8,6 +8,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>Content</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>
         <div className="hidden md:flex">

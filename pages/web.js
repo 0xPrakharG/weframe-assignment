@@ -6,6 +6,7 @@ export default function WebPage() {
     <>
       <Head>
         <title>Web</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>WebPage</Layout>
     </>

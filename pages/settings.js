@@ -6,6 +6,7 @@ export default function SettingsPage() {
     <>
       <Head>
         <title>Settings</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>SettingsPage</Layout>
     </>

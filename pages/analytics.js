@@ -6,6 +6,7 @@ export default function AnalyticsPage() {
     <>
       <Head>
         <title>Analytics</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>AnalyticsPage</Layout>
     </>

@@ -6,6 +6,7 @@ export default function DashboardPage() {
     <>
       <Head>
         <title>Dashboard</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>dashboard</Layout>
     </>

@@ -6,6 +6,7 @@ export default function NotificationPage() {
     <>
       <Head>
         <title>Notification</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>NotificationPage</Layout>
     </>

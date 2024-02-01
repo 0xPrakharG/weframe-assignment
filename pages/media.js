@@ -6,6 +6,7 @@ export default function MediaPage() {
     <>
       <Head>
         <title>Media</title>
+        <meta name="description" content="description"></meta>
       </Head>
       <Layout>MediaPage</Layout>
     </>
