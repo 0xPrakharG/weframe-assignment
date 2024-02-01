@@ -19,7 +19,7 @@ export default function Advertisements() {
             className="h-full aspect-square w-full overflow-hidden rounded-l-xl"
           />
           <div className="flex flex-col px-2 py-2 justify-center mr-3">
-            <h6 className="text-[20px] font-semibold">{advertisement.name}</h6>
+            <p className="text-[20px] font-semibold">{advertisement.name}</p>
             <p className="text-sm text-[#A0A3BD]">{advertisement.text}</p>
             <div className="flex items-center mt-1 gap-2">
               <Link

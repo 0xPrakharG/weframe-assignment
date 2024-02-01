@@ -26,8 +26,10 @@ export default function StoryImage() {
                   className="px-16"
                 />
                 <div className="absolute bottom-5 text-white left-20 md:text-xl text-lg lg:text-3xl md:w-[250px] lg:w-[360px] flex flex-col">
-                  <h6 className="text-left">{story.info}</h6>
-                  <p className="text-left text-xl py-3 px-5 bg-[#F7EEFF] w-fit rounded-md mt-3 text-[#9058FF]">{story.type}</p>
+                  <p className="text-left">{story.info}</p>
+                  <p className="text-left text-xl py-3 px-5 bg-[#F7EEFF] w-fit rounded-md mt-3 text-[#9058FF]">
+                    {story.type}
+                  </p>
                 </div>
               </div>
             ))}

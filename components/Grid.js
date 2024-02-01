@@ -19,9 +19,9 @@ export default function Grid() {
             />
           </div>
           <div className="flex items-start gap-1 flex-col">
-            <h3 className="md:text-xl text-base text-[#212121] font-semibold">
+            <p className="md:text-xl text-base text-[#212121] font-semibold">
               {item.name}
-            </h3>
+            </p>
             <p className="text-[#22285E] text-xs md:text-sm font-normal">
               {item.number} New Updates
             </p>

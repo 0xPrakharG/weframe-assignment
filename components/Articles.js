@@ -21,9 +21,9 @@ export default function Articles() {
           <div className="flex flex-col mt-3">
             <div className="flex justify-between items-center text-sm">
               <div className="flex gap-1">
-                <h6 className="uppercase font-extrabold text-[#9058FF]">
+                <p className="uppercase font-extrabold text-[#9058FF]">
                   {article.type}
-                </h6>
+                </p>
                 <span className="text-[28px] text-[#D9D9D9]">&bull;</span>
                 <p className="text-[#A0A3BD] font-semibold">{article.date}</p>
               </div>

@@ -50,7 +50,7 @@ export default function Stories() {
               </div>
             </div>
             <div className="absolute bottom-0 text-white p-2">
-              <h6 className="text-xl">{story.title}</h6>
+              <p className="text-xl">{story.title}</p>
               <div className="flex items-center justify-between">
                 <div className="flex gap-1 items-center">
                   <p className="uppercase font-black">{story.type}</p>

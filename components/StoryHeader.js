@@ -10,7 +10,7 @@ export default function StoryHeader() {
       <div className="flex gap-3 py-3 px-3 rounded-2xl w-fit">
         <Link href={"/content"} className="flex items-center gap-2">
           <Image src={Back} alt="" width={100} height={100} className="w-6" />
-          <h6 className="font-bold text-3xl">Stories</h6>
+          <p className="font-bold text-3xl">Stories</p>
         </Link>
       </div>
       <div className="flex items-center lg:justify-center gap-2 md:mt-1">
