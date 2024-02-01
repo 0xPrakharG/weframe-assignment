@@ -1,13 +1,13 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 
-export default function Home() {
+export default function WebPage() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Web</title>
       </Head>
-      <Layout>Please use navbar to go to content page</Layout>;
+      <Layout>WebPage</Layout>
     </>
   );
 }

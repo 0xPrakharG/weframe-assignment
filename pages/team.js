@@ -1,13 +1,14 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
+import React from "react";
 
-export default function Home() {
+export default function TeamPage() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Team</title>
       </Head>
-      <Layout>Please use navbar to go to content page</Layout>;
+      <Layout>Team</Layout>
     </>
   );
 }
