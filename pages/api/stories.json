@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "How 7 lines code turned into $36 Billion Empire",
+    "views": "428",
+    "status": "Published",
+    "type": "Business",
+    "image": "/story-1.png",
+    "date": "20 Sep 2022"
+  },
+  {
+    "id": 2,
+    "title": "Chez pierre restaurant in Monte Carlo by Vuidafieri",
+    "views": "428",
+    "status": "Created",
+    "type": "Business",
+    "image": "/story-2.png",
+    "date": "20 Sep 2022"
+  },
+  {
+    "id": 3,
+    "title": "Teknion wins Gold at 2022 International Design Awards",
+    "views": "428",
+    "status": "Draft",
+    "type": "Politics",
+    "image": "/story-3.png",
+    "date": "20 Sep 2022"
+  },
+  {
+    "id": 4,
+    "title": "How 7 lines code turned into $36 Billion Empire",
+    "views": "428",
+    "status": "Published",
+    "type": "Business",
+    "image": "/story-4.png",
+    "date": "20 Sep 2022"
+  },
+  {
+    "id": 5,
+    "title": "Chez pierre restaurant in Monte Carlo by Vuidafieri",
+    "views": "428",
+    "status": "Created",
+    "type": "Business",
+    "image": "/story-2.png",
+    "date": "20 Sep 2022"
+  },
+  {
+    "id": 6,
+    "title": "Teknion wins Gold at 2022 International Design Awards",
+    "views": "428",
+    "status": "Draft",
+    "type": "Politics",
+    "image": "/story-3.png",
+    "date": "20 Sep 2022"
+  }
+]

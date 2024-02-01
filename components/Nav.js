@@ -4,9 +4,10 @@ import React from "react";
 import navItems from "@/pages/api/navItems.json";
 import Image from "next/image";
 import Headphone from "@/public/headphones.svg";
+import Header from "./Header";
 
 export default function Nav({ show, setShow }) {
-  const inactiveLink = "flex items-center gap-4 px-3 py-4 md:px-4 rounded-xl";
+  const inactiveLink = `flex items-center gap-4 px-3 py-4 md:px-4 rounded-xl`;
   const activeLink = inactiveLink + " bg-[#7950F2] text-white";
   const inactiveIcon = "w-6 h-6";
   const activeIcon = inactiveIcon + " invert";
@@ -17,8 +18,8 @@ export default function Nav({ show, setShow }) {
   return (
     <div
       className={
-        (show ? "left-0" : "-left-full") +
-        " fixed top-0 bottom-0 h-[100vh] bg-[#FFFFFF] p-6 text-sm font-semibold text-[#53545C] transition-all md:static z-20 md:min-w-[20%]"
+        (show ? "left-0 w-full h-full md:min-w-[20%]" : "-left-full md:min-w-[20%]") +
+        " fixed top-0 bottom-0 bg-[#FFFFFF] p-6 text-sm font-semibold text-[#53545C] transition-all md:static z-20 "
       }
     >
       <div className="mb-4 mr-4 flex justify-between">
@@ -30,7 +31,7 @@ export default function Nav({ show, setShow }) {
               viewBox="0 0 24 24"
               strokeWidth={2.0}
               stroke="currentColor"
-              className="h-6 w-6 md:hidden"
+              className="h-6 w-6 lg:hidden"
             >
               <path
                 strokeLinecap="round"
@@ -41,8 +42,12 @@ export default function Nav({ show, setShow }) {
           </button>
         )}
       </div>
-      <div className="flex justify-between fixed z-10 flex-col w-[17%] h-full">
-        <nav className="flex flex-col mt-14">
+      <div
+        className={`${
+          show && "w-full pr-10 md:w-[17%] md:pr-0"
+        } flex justify-between fixed z-10 flex-col h-full`}
+      >
+        <nav className="flex flex-col md:mt-14">
           {navItems.map((item) => (
             <Link
               key={item.id}
@@ -71,7 +76,7 @@ export default function Nav({ show, setShow }) {
         </nav>
         <Link
           href="/"
-          className="flex items-center w-full gap-4 mb-12 px-3 py-4 md:px-4 rounded-xl bg-[#E8E9FF]"
+          className="flex items-center w-full gap-4 mb-20 px-3 py-4 md:px-4 rounded-xl bg-[#E8E9FF]"
         >
           <Image
             src={Headphone}

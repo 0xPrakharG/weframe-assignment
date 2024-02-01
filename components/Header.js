@@ -6,7 +6,7 @@ import DownArrow from "@/public/downArrow.svg";
 
 export default function Header() {
   return (
-    <div className="py-4 px-10 fixed top-0 right-0 w-[80%] z-10 bg-white rounded-b-[20px] flex items-center justify-between">
+    <div className="md:py-2 md:px-10 md:fixed top-0 right-0 md:w-[80%] z-10 bg-white rounded-b-[20px] flex flex-wrap lg:flex-row items-center justify-between">
       <div className="flex gap-3 bg-[#FCFCFD] py-3 px-3 rounded-2xl w-fit">
         <Image
           src={Search}
@@ -18,10 +18,10 @@ export default function Header() {
         <input
           type="text"
           placeholder="Search"
-          className="text-sm font-medium w-[250px] bg-transparent"
+          className="text-sm p-1 font-medium w-[250px] bg-transparent"
         />
       </div>
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex items-center lg:justify-center gap-2 md:mt-1">
         <div className="flex gap-3 items-center text-lg font-medium text-[#313145] bg-[#FAFAFA] border border-[#A0A3BD] rounded-[10px] py-2 px-3">
           <p>11-10-2022</p>
           <span>

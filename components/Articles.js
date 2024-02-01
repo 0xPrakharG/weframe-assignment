@@ -8,7 +8,7 @@ export default function Articles() {
       {articles.map((article) => (
         <div
           key={article.id}
-          className="flex flex-col bg-white h-fit rounded-[10px] min-w-96 p-3"
+          className="flex flex-col bg-white h-fit rounded-[10px] md:min-w-96 min-w-80 p-3"
         >
           <Image
             src={article.image}
@@ -38,19 +38,39 @@ export default function Articles() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-3">
-              <p className="text-[18px] font-semibold">{article.title}</p>
-              <p className={`px-4 py-1 ${article.status === "Created" ? "text-[#7950F2] bg-[#E3D5FF]":"text-[#0DAD82] bg-[#E4FFF8]"} rounded-md font-semibold`}>{article.status}</p>
+              <p className="md:text-[18px] text-[15px] font-semibold">{article.title}</p>
+              <p
+                className={`px-4 py-1 ${
+                  article.status === "Created"
+                    ? "text-[#7950F2] bg-[#E3D5FF]"
+                    : "text-[#0DAD82] bg-[#E4FFF8]"
+                } rounded-md font-semibold`}
+              >
+                {article.status}
+              </p>
             </div>
-            <p className="mt-3 text-base font-normal text-[#A0A3BD]">{article.text}</p>
+            <p className="mt-3 md:text-base text-sm font-normal text-[#A0A3BD]">
+              {article.text}
+            </p>
             <div className="flex gap-2 mt-3">
               {article.tags.map((tag, index) => (
-                <p key={index} className="px-4 py-1 rounded-md bg-[#F8FAFB]">{tag}</p>
+                <p key={index} className="px-4 py-1 rounded-md text-xs md:text-base bg-[#F8FAFB]">
+                  {tag}
+                </p>
               ))}
             </div>
             <div className="mt-3 flex items-center gap-2">
-              <button className="w-full bg-[#E8E9FF] py-4 rounded-md">View</button>
-              <button className="px-5 py-6 bg-[#FAFAFA] h-full rounded-md">
-                <Image src={Dots} alt="" width={100} height={100} className="w-6" />
+              <button className="w-full bg-[#E8E9FF] md:py-4 py-2 rounded-md font-semibold text-[#7750F1]">
+                View
+              </button>
+              <button className="px-5 md:py-6 py-[18px] bg-[#FAFAFA] rounded-md">
+                <Image
+                  src={Dots}
+                  alt=""
+                  width={100}
+                  height={100}
+                  className="w-6"
+                />
               </button>
             </div>
           </div>

@@ -24,7 +24,9 @@ export default function Layout({ children }) {
       </div>
       <div className="flex w-screen">
         <Nav show={showNav} setShow={setShowNav} />
-        <div className="flex-grow bg-[#F8FAFB] max-w-[80%]">{children}</div>
+        <div className="flex-grow bg-[#F8FAFB] w-full md:max-w-[80%]">
+          {children}
+        </div>
       </div>
     </div>
   );

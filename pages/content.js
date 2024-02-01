@@ -2,10 +2,12 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Content from "@/components/Content";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <Layout>
-      <Header />
+      <div className="hidden md:flex">
+        <Header />
+      </div>
       <Content />
     </Layout>
   );
