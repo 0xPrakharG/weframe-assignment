@@ -1,6 +1,7 @@
 import advertisements from "@/pages/api/advertisements.json";
 import Image from "next/image";
 import Dots from "@/public/dots.svg";
+import Link from "next/link";
 
 export default function Advertisements() {
   return (
@@ -21,10 +22,21 @@ export default function Advertisements() {
             <h6 className="text-[20px] font-semibold">{advertisement.name}</h6>
             <p className="text-sm text-[#A0A3BD]">{advertisement.text}</p>
             <div className="flex items-center mt-1 gap-2">
-              <button className="w-full py-2 bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]">View</button>
-              <button className="px-4 bg-[#FAFAFA] h-full rounded-md">
-                <Image src={Dots} alt="" width={100} height={100} className="w-6" />
-              </button>
+              <Link
+                href={"/"}
+                className="w-full py-2 flex justify-center bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]"
+              >
+                View
+              </Link>
+              <Link href={"/"} className="px-4 flex justify-center bg-[#FAFAFA] h-full rounded-md">
+                <Image
+                  src={Dots}
+                  alt=""
+                  width={100}
+                  height={100}
+                  className="w-6"
+                />
+              </Link>
             </div>
           </div>
         </div>

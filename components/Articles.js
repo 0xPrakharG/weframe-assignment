@@ -1,6 +1,7 @@
 import articles from "@/pages/api/articles.json";
 import Image from "next/image";
 import Dots from "@/public/dots.svg";
+import Link from "next/link";
 
 export default function Articles() {
   return (
@@ -38,7 +39,9 @@ export default function Articles() {
               </div>
             </div>
             <div className="flex items-center justify-between mt-3">
-              <p className="md:text-[18px] text-[15px] font-semibold">{article.title}</p>
+              <p className="md:text-[18px] text-[15px] font-semibold">
+                {article.title}
+              </p>
               <p
                 className={`px-4 py-1 ${
                   article.status === "Created"
@@ -54,16 +57,25 @@ export default function Articles() {
             </p>
             <div className="flex gap-2 mt-3">
               {article.tags.map((tag, index) => (
-                <p key={index} className="px-4 py-1 rounded-md text-xs md:text-base bg-[#F8FAFB]">
+                <p
+                  key={index}
+                  className="px-4 py-1 rounded-md text-xs md:text-base bg-[#F8FAFB]"
+                >
                   {tag}
                 </p>
               ))}
             </div>
             <div className="mt-3 flex items-center gap-2">
-              <button className="w-full bg-[#E8E9FF] md:py-4 py-2 rounded-md font-semibold text-[#7750F1]">
+              <Link
+                href={"/"}
+                className="flex justify-center w-full bg-[#E8E9FF] md:py-4 py-2 rounded-md font-semibold text-[#7750F1]"
+              >
                 View
-              </button>
-              <button className="px-5 md:py-6 py-[18px] bg-[#FAFAFA] rounded-md">
+              </Link>
+              <Link
+                href={"/"}
+                className="flex justify-center px-5 md:py-6 py-[18px] bg-[#FAFAFA] rounded-md"
+              >
                 <Image
                   src={Dots}
                   alt=""
@@ -71,7 +83,7 @@ export default function Articles() {
                   height={100}
                   className="w-6"
                 />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

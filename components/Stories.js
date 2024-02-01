@@ -20,7 +20,10 @@ export default function Stories() {
             />
             <div className="absolute top-2 right-3">
               <div className="flex gap-1 right-1 justify-end items-center">
-                <button className="flex items-center gap-1 rounded-md bg-white opacity-80 p-1">
+                <Link
+                  href={"/"}
+                  className="flex items-center gap-1 rounded-md bg-white opacity-80 p-1"
+                >
                   <Image
                     src={Eye}
                     alt=""
@@ -29,8 +32,8 @@ export default function Stories() {
                     className="w-5"
                   />
                   <p>{story.views}</p>
-                </button>
-                <button className="bg-white rounded-md opacity-80 p-1">
+                </Link>
+                <Link href={"/"} className="bg-white rounded-md opacity-80 p-1">
                   <Image
                     src={Status}
                     alt=""
@@ -38,7 +41,7 @@ export default function Stories() {
                     height={100}
                     className="w-5"
                   />
-                </button>
+                </Link>
               </div>
             </div>
             <div className="absolute bottom-0 text-white p-2">
@@ -71,7 +74,10 @@ export default function Stories() {
                 >
                   View
                 </Link>
-                <button className="px-4 bg-[#FAFAFA] py-4 h-full rounded-md">
+                <Link
+                  href={"/"}
+                  className="px-4 bg-[#FAFAFA] py-4 h-full rounded-md"
+                >
                   <Image
                     src={Dots}
                     alt=""
@@ -79,7 +85,7 @@ export default function Stories() {
                     height={100}
                     className="w-6"
                   />
-                </button>
+                </Link>
               </div>
             </div>
           </div>
