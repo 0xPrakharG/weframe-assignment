@@ -53,7 +53,7 @@ export default function Nav({ show, setShow }) {
               key={item.id}
               href={item.link}
               className={
-                pathname === `${item.link}` ? activeLink : inactiveLink
+                pathname.includes(item.link)  ? activeLink : inactiveLink
               }
             >
               <Image
@@ -62,7 +62,7 @@ export default function Nav({ show, setShow }) {
                 width={100}
                 height={100}
                 className={
-                  pathname === `${item.link}` ? activeIcon : inactiveIcon
+                  pathname.includes(item.link) ? activeIcon : inactiveIcon
                 }
               />
               {item.name}{" "}

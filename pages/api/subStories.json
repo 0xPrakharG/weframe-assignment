@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "/story-pic.png",
+    "info": "Chez pierre restaurant in Monte Carlo by Vuidafieri Partner",
+    "type": "Business"
+  },
+  {
+    "id": 2,
+    "imageSrc": "/story-pic.png",
+    "info": "Chez pierre restaurant in Monte Carlo by Vuidafieri Partner",
+    "type": "Business"
+  },
+  {
+    "id": 3,
+    "imageSrc": "/story-pic.png",
+    "info": "Chez pierre restaurant in Monte Carlo by Vuidafieri Partner",
+    "type": "Business"
+  }
+]

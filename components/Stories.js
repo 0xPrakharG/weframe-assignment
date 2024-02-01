@@ -3,6 +3,7 @@ import Image from "next/image";
 import Eye from "@/public/eye.svg";
 import Status from "@/public/status-up.svg";
 import Dots from "@/public/dots.svg";
+import Link from "next/link";
 
 export default function Stories() {
   return (
@@ -64,9 +65,12 @@ export default function Stories() {
                 </p>
               </div>
               <div className="flex items-center mt-1 gap-2">
-                <button className="w-full py-2 bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]">
+                <Link
+                  href={"/content/story/id"}
+                  className="w-full py-2 flex justify-center bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]"
+                >
                   View
-                </button>
+                </Link>
                 <button className="px-4 bg-[#FAFAFA] py-4 h-full rounded-md">
                   <Image
                     src={Dots}

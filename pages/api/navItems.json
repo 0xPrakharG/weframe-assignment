@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "link": "/",
+    "link": "/dashboard",
     "icon": "/dashboard.svg",
     "name": "Dashboard",
     "pointer": ""

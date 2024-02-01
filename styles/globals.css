@@ -13,3 +13,8 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
+.control-dots {
+  position: absolute;
+  top: 0;
+}
