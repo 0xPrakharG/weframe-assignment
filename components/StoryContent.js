@@ -3,6 +3,7 @@ import StoryDp from "@/public/story-dp.png";
 import Dots from "@/public/dots.svg";
 import DownArrowSolid from "@/public/downArrowSolid.svg";
 import StoryImage from "@/components/StoryImage";
+import Link from "next/link";
 
 export default function StoryContent() {
   return (
@@ -34,9 +35,12 @@ export default function StoryContent() {
               className="w-6"
             />
           </button>
-          <button className="bg-[#FAFAFA] px-4 py-[18px] rounded-md">
+          <Link
+            href={"/"}
+            className="flex justify-center bg-[#FAFAFA] px-4 py-[18px] rounded-md"
+          >
             <Image src={Dots} alt="" width={100} height={100} className="w-6" />
-          </button>
+          </Link>
         </div>
       </div>
       <StoryImage />

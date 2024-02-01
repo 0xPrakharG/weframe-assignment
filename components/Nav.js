@@ -24,7 +24,7 @@ export default function Nav({ show, setShow }) {
     >
       <div className="mb-4 mr-4 flex justify-between">
         {show && (
-          <button onClick={() => setShow(false)}>
+          <button onClick={() => setShow(false)} aria-label="burger-menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

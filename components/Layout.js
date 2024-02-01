@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="h-full bg-white">
       <div className="flex items-center p-4 md:hidden">
-        <button onClick={() => setShowNav((prev) => !prev)}>
+        <button onClick={() => setShowNav((prev) => !prev)} aria-label="close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

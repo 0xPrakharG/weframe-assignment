@@ -23,12 +23,12 @@ export default function Advertisements() {
             <p className="text-sm text-[#A0A3BD]">{advertisement.text}</p>
             <div className="flex items-center mt-1 gap-2">
               <Link
-                href={"/"}
+                href={"/"} aria-label="view"
                 className="w-full py-2 flex justify-center bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]"
               >
                 View
               </Link>
-              <Link href={"/"} className="px-4 flex justify-center bg-[#FAFAFA] h-full rounded-md">
+              <Link href={"/"} aria-label="dots" className="px-4 flex justify-center bg-[#FAFAFA] h-full rounded-md">
                 <Image
                   src={Dots}
                   alt=""

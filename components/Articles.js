@@ -74,6 +74,7 @@ export default function Articles() {
               </Link>
               <Link
                 href={"/"}
+                aria-label="dots"
                 className="flex justify-center px-5 md:py-6 py-[18px] bg-[#FAFAFA] rounded-md"
               >
                 <Image

@@ -22,6 +22,7 @@ export default function Stories() {
               <div className="flex gap-1 right-1 justify-end items-center">
                 <Link
                   href={"/"}
+                  aria-label="views"
                   className="flex items-center gap-1 rounded-md bg-white opacity-80 p-1"
                 >
                   <Image
@@ -33,7 +34,11 @@ export default function Stories() {
                   />
                   <p>{story.views}</p>
                 </Link>
-                <Link href={"/"} className="bg-white rounded-md opacity-80 p-1">
+                <Link
+                  href={"/"}
+                  aria-label="status"
+                  className="bg-white rounded-md opacity-80 p-1"
+                >
                   <Image
                     src={Status}
                     alt=""
@@ -70,12 +75,14 @@ export default function Stories() {
               <div className="flex items-center mt-1 gap-2">
                 <Link
                   href={"/content/story/id"}
+                  aria-label="view"
                   className="w-full py-2 flex justify-center bg-[#E8E9FF] rounded-md font-semibold text-[#7750F1]"
                 >
                   View
                 </Link>
                 <Link
                   href={"/"}
+                  aria-label="dots"
                   className="px-4 bg-[#FAFAFA] py-4 h-full rounded-md"
                 >
                   <Image
